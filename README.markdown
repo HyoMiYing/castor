@@ -33,4 +33,6 @@ The code I have worked on consists of two API functions:
 
 I also designed the UI myself
 
+![Castor UI](https://github.com/HyoMiYing/castor/blob/master/images/CastorUI.jpg)
+
 The web server's code was uploaded to a microcomputer, which I then accessed via browser (http://192.168.2.102/nx/)
