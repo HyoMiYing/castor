@@ -35,4 +35,6 @@ I also designed the UI myself
 
 ![Castor UI](https://github.com/HyoMiYing/castor/blob/master/images/CastorUI.png)
 
-The web server's code was uploaded to a microcomputer, which I then accessed via browser (http://192.168.2.102/nx/)
+The web server's code was uploaded to a microcomputer.
+The microcomputer was connected to my computer with an ethernet cable.
+I then accessed the web server via browser (http://192.168.2.102/nx/)
