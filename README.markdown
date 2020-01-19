@@ -2,11 +2,11 @@
 
 CASTOR is a management system for monitoring and manipulating with ovens for carbon fiber parts.
 
-# The problem
+## The problem
 
 We need to remotley turn off/on the oven that is located in the factory.
 
-# Web server
+## Web server
 
 We connect to a web server via VPN. The website is a simple industrial one-page application.
 There are visible information such as:
@@ -16,16 +16,16 @@ There are visible information such as:
 
 We can also deactivate specific ovens.
 
-# Setup
+### Setup
 
-![Laptop, techbase microcomputer, and its charger](images/CastorSetup.png)
+![Laptop, techbase microcomputer, and its charger](./images/CastorSetup.png)
 
 This is how I worked on the project: I was programming code on my laptop, then sent it to a techbase microcomputer (grey box)
 (Orange box is microcomputer's charger)
 
 Since there was no oven in development phase I used an API simulator written in C++.
 
-# Functionality
+### Functionality
 
 The code I have worked on consists of two API functions:
 1st function: Get oven data
