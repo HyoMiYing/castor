@@ -1,0 +1,156 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+    margin: 1em;
+}
+
+header {
+    height: 3em;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 0.5em;
+    font-size: 2em;
+}
+
+/* List of ovens with values */
+#hero {
+    display: grid;
+    grid-row-gap: 0.5em;
+    font-size: xx-large;
+}
+
+.row {
+    height: 3em;
+}
+
+#headings {
+    background-color: rgb(167, 167, 167);
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#headings div{
+    display: flex;
+}
+
+#headings div span{
+    margin: auto;
+}
+
+#id-heading {
+    background-color: #727272;
+}
+
+#temperature-heading {
+
+}
+
+#status-heading {
+    background-color: #727272;
+}
+
+#timestamp-heading {
+
+}
+
+#action-heading {
+    background-color: #727272;
+}
+
+/* Oven row */
+.class-oven {
+    background-color: #C4C4C4;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.class-oven div {
+    display: flex;
+}
+
+.class-oven div span{
+    margin: auto;
+}
+
+.oven-id {
+    border-right: 3px solid black;
+}
+
+.oven-id span {
+    font-size: 2rem;
+}
+
+.oven-temperature {
+    border-right: 3px solid black;
+}
+
+.oven-status {
+    color: white;
+    border-right: 3px solid black;
+}
+
+.oven-on {
+    background-color: #2FA42D;
+}
+
+.oven-off {
+    background-color: #700000;
+}
+
+.oven-timestamp {
+    border-right: 3px solid black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1359px) {
+    * {
+      font-size: 29px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    * {
+    font-size: 24px;
+    }
+} 
+
+@media only screen and (max-width: 910px) {
+    * {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    * {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    * {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 606px) {
+    * {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 472px) {
+    * {
+        font-size: 9px;
+    }
+}
