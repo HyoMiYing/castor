@@ -18,7 +18,7 @@ We can also deactivate specific ovens.
 
 # Setup
 
-![Laptop, techbase microcomputer, and its charger](/images/setup.png)
+![Laptop, techbase microcomputer, and its charger](/images/CastorSetup.png)
 
 This is how I worked on the project: I was programming code on my laptop, then sent it to a techbase microcomputer (grey box)
 (Orange box is microcomputer's charger)
